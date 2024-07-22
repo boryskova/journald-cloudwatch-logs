@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/coreos/go-systemd/tree/main/sdjournal"
+	"github.com/coreos/go-systemd/sdjournal"
 )
 
 var help = flag.Bool("help", false, "set to true to show this help")
