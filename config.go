@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws"
-	awsCredentials "github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds"
-	"github.com/aws/aws-sdk-go/aws/ec2metadata"
-	awsSession "github.com/aws/aws-sdk-go/aws/session"
+	"github.com/aws/aws-sdk-go/tree/main/aws"
+	awsCredentials "github.com/aws/aws-sdk-go/tree/main/aws/credentials"
+	"github.com/aws/aws-sdk-go/tree/main/aws/credentials/ec2rolecreds"
+	"github.com/aws/aws-sdk-go/tree/main/aws/ec2metadata"
+	awsSession "github.com/aws/aws-sdk-go/tree/main/aws/session"
 
 	"github.com/hashicorp/hcl"
 )

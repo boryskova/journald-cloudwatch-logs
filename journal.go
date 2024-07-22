@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/coreos/go-systemd/sdjournal"
+	"github.com/coreos/go-systemd/tree/main/sdjournal"
 	"strconv"
 	"strings"
 )

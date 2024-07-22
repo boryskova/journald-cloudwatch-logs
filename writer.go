@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	awsSession "github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
+	"github.com/aws/aws-sdk-go/tree/main/aws/awserr"
+	awsSession "github.com/aws/aws-sdk-go/tree/main/aws/session"
+	"github.com/aws/aws-sdk-go/tree/main/service/cloudwatchlogs"
 )
 
 type writer struct {

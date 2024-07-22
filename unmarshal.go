@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coreos/go-systemd/sdjournal"
+	"github.com/coreos/go-systemd/tree/main/sdjournal"
 )
 
 func unmarshalRecord(journal *sdjournal.Journal, to *record) error {
