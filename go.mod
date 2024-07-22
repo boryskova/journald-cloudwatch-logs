@@ -1,6 +1,6 @@
-module github.com/saymedia/journald-cloudwatch-logs
+module github.com/boryskova/journald-cloudwatch-logs
 
-go 1.12
+go 1.19
 
 require (
         github.com/aws/aws-sdk-go v1.4.11-0.20160915231818-d54f7c6d021d
