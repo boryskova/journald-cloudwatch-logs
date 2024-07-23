@@ -24,10 +24,9 @@
 // [1] http://www.freedesktop.org/software/systemd/man/sd-journal.html
 package sdjournal
 
-// #cgo CFLAGS: -I/usr/include/systemd
+// #cgo CFLAGS: -I/usr/include/systemd -include /usr/include/systemd/sd-journal.h
+// #cgo CFLAGS: -I/usr/include/systemd -include /usr/include/systemd/sd-id128.h
 // #cgo LDFLAGS: -lsystemd
-// #include <systemd/sd-journal.h>
-// #include <systemd/sd-id128.h>
 // #include <stdlib.h>
 // #include <syslog.h>
 //
