@@ -26,7 +26,6 @@ package sdjournal
 
 // #cgo CFLAGS: -I/usr/include/systemd -include /usr/include/systemd/sd-journal.h
 // #cgo CFLAGS: -I/usr/include/systemd -include /usr/include/systemd/sd-id128.h
-// #cgo LDFLAGS: -lsystemd
 // #include <stdlib.h>
 // #include <syslog.h>
 //
